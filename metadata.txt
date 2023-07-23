@@ -1,0 +1,46 @@
+; czesc obowiazkowa, opisy powinny być po angielsku
+; więcej na: http://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/plugins.html#plugin-metadata 
+; komentarze zaczynają się od średnika
+
+[general]
+name=Minimap
+email=matrydzik@gmail.com
+author=Mateusz Rydzik
+qgisMinimumVersion=3.0
+description=Minimap for QGIS
+about=Adds a minimap canvas to your QGIS dock
+version=version 1.0
+tracker=http://bugs.server.org
+repository=http://www.server.org/repo
+
+; koniec części obowiązkowej
+
+
+; Początek części opcjonalnej, opisy powinny być po angielsku
+
+category=Vector
+changelog=The changelog lists the plugin versions
+    and their changes as in the example below:
+    2.0 - Adopted to Python3/QGIS3
+    1.0 - First stable release
+    0.9 - All features implemented
+    0.8 - First testing release
+
+; Tags (tagi lub słowa kluczowe) powinny być rozdzielane przecinkami, po angielsku
+tags=minimap,canvas
+
+; Następne metadanre mogą pozostać puste.
+homepage=http://www.server.org
+icon=icon.png
+
+; experimental flag (eksperymentalny: Stosuje się do aktualnie ładowanej wersji pluginu)
+experimental=True
+
+; deprecated flag (niezalecany - stosuje się do całego pluginu)
+deprecated=False
+
+; maksymalna wersja: jeżeli puste to będzie automatycznie qgisMinimumVersion  + .99
+; qgisMaximumVersion=3.99
+
+; przygotowanie ikony
+; pyrcc5 -o resources.py resources.qrc
